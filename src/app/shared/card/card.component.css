@@ -1,0 +1,14 @@
+.card{
+    padding: 24px;
+}
+
+.card .primary{
+    background: #d96be8;
+    border: 1px solid #342742;
+    border-radius: 12px;
+}
+
+.card .secondary{
+    background: #e8d8d8;
+    border-radius: 16px;
+}

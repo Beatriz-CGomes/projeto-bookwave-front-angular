@@ -1,0 +1,25 @@
+.card-livros {
+    max-width: 250px;
+    background-color: #FEF7FF;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.card-livros button {
+    width: 100%;
+    margin: 0 16px 48px;
+}
+
+.card-livros img {
+    width: 55.5%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.card-livros p {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 10px;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+  }
+
+  mat-form-field{
+    width: 250px; 
+    font-size: 12px;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding-left: 99px;
+  }
+  mat-label{
+    font-size: 15px;
+    font-family: 'Montserrat';
+  }
+
+  .modal-cadastro{
+    width: 500px;
+  }
+.topo h1{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.topo{
+    background-color: rgb(144, 0, 255);
+    width: 100%;
+}
+
+.modal-cadastro button{
+    width: 220px; 
+    margin-left: 110px;
+}
+
+.check{
+    font-family: 'Montserrat';
+    padding-left: 20px;
+}
+

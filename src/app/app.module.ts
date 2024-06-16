@@ -17,6 +17,15 @@ import { HomeComponent } from './pages/home/home.component';
 import { CardLivrosComponent } from './shared/card-livros/card-livros.component';
 import {MatCardModule} from '@angular/material/card';
 import { CardDepoimentoComponent } from './shared/card-depoimento/card-depoimento.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { ModalCadastroComponent } from './shared/modal-cadastro/modal-cadastro.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatIconModule } from '@angular/material/icon';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { ModalLoginComponent } from './shared/modal-login/modal-login.component';
+
+
 
 
 @NgModule({
@@ -29,7 +38,9 @@ import { CardDepoimentoComponent } from './shared/card-depoimento/card-depoiment
     ContainerComponent,
     HomeComponent,
     CardLivrosComponent,
-    CardDepoimentoComponent
+    CardDepoimentoComponent,
+    ModalCadastroComponent,
+    ModalLoginComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +48,12 @@ import { CardDepoimentoComponent } from './shared/card-depoimento/card-depoiment
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule, 
+    MatDialogModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatIconModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

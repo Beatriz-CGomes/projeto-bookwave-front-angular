@@ -1,5 +1,7 @@
 .app-header button {
-    margin: 0 8px;
+    margin: 0 7px;
+    font-family: 'Montserrat';
+    font-style: normal;
 }
 
 .app-header .spacer {
@@ -14,7 +16,7 @@
 .app-header mat-toolbar {
     background-color: black;
     color: white;
-    padding: 0 190px ;
+    padding: 0 190px;
 }
 
 .app-header .mat-mdc-outlined-button:not(:disabled) {

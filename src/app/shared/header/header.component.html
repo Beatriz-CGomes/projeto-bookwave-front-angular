@@ -1,10 +1,10 @@
 <header class="app-header"> 
-    <mat-toolbar>
+   <mat-toolbar>
         <img class="logo" src="assets/imagens/logobookwave.png" alt="Logo da aplicação bookwave">
         <span class="spacer"></span>
         <button mat-button>Home</button>
         <button mat-button>Sobre</button>
-        <button mat-raised-button color="primary">CADASTRA-SE</button>
-        <button mat-stroked-button color="primary">LOGIN</button>
+        <button mat-raised-button color="primary" (click)="openDialog(true)">CADASTRA-SE</button>
+        <button mat-stroked-button color="primary" (click)="openDialog(false)">LOGIN</button>
     </mat-toolbar>
 </header>

@@ -6,14 +6,16 @@
 }
 
 .card-livros button {
-    width: 100%;
-    margin: 0 16px 48px;
+    width: 60%;
+    margin: 10 16px 48px;
+    margin-left: 50px;
 }
 
 .card-livros img {
     width: 55.5%;
     text-align: center;
     margin-left: 50px;
+    margin-top: 10px;
 }
 
 .card-livros p {
@@ -22,4 +24,9 @@
     font-style: normal;
     margin-top: 10px;
     text-align: center;
+}
+
+.mat-mdc-card{
+ box-shadow: none;
+ background-color: rgb(248, 236, 250);
 }

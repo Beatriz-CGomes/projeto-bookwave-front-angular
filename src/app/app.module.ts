@@ -16,6 +16,7 @@ import { ContainerComponent } from './shared/container/container.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CardLivrosComponent } from './shared/card-livros/card-livros.component';
 import {MatCardModule} from '@angular/material/card';
+import { CardDepoimentoComponent } from './shared/card-depoimento/card-depoimento.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import {MatCardModule} from '@angular/material/card';
     BannerComponent,
     ContainerComponent,
     HomeComponent,
-    CardLivrosComponent
+    CardLivrosComponent,
+    CardDepoimentoComponent
   ],
   imports: [
     BrowserModule,

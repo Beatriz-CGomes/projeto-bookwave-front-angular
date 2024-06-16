@@ -1,0 +1,32 @@
+.depoimento{
+    max-width: 340px;
+    background-color: #f8dcfc;
+    border: none;   
+
+}
+
+.depoimento img{
+    max-width: 56px;
+    max-height: 56px;
+    margin-top: 16px;
+}
+
+.depoimento ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.depoimento li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    line-height: 20px;
+}
+
+.depoimento mat-card-content{
+    display: flex;
+    align-items: start;
+    gap: 16px;
+}

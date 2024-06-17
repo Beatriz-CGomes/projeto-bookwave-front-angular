@@ -1,7 +1,7 @@
 .modal-container {
     display: flex;
     flex-direction: column;
-    gap: 10px; 
+    gap: 5px; 
   }
 
   mat-form-field{
@@ -9,7 +9,7 @@
     font-size: 12px;
     font-family: 'Montserrat';
     text-align: center;
-    padding-left: 99px;
+    padding-left: 40px;
   }
   mat-label{
     font-size: 15px;
@@ -17,7 +17,7 @@
   }
 
   .modal-cadastro{
-    width: 500px;
+    width: 400px;
   }
 .topo h1{
   font-family: 'Montserrat';
@@ -32,12 +32,23 @@
 }
 
 .modal-cadastro button{
-    width: 220px; 
-    margin-left: 110px;
+    width: 250px; 
+    margin-left: 40px;
 }
 
 .check{
     font-family: 'Montserrat';
-    padding-left: 20px;
+    padding-left: 35px;
+
 }
 
+.card-cadastro {
+  border-radius: 22px;
+  margin-top: -10x;
+  margin: 45px;
+
+}
+
+.mat-mdc-card{
+background-color: rgb(248, 243, 243);
+}

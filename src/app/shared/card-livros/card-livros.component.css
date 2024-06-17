@@ -15,7 +15,7 @@
     width: 55.5%;
     text-align: center;
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .card-livros p {
@@ -28,5 +28,5 @@
 
 .mat-mdc-card{
  box-shadow: none;
- background-color: rgb(248, 236, 250);
+ background-color: rgb(245, 231, 249);
 }

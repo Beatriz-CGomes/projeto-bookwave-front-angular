@@ -1,61 +1,71 @@
-.topo{
-    background-color: rgb(144, 0, 255);
-    width: 100%;
+.topo {
+  background-color: rgb(144, 0, 255);
+  width: 100%;
 }
 
-.topo h1{
-    font-family: 'Montserrat';
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    text-align: center;
-  }
-
-  .modal-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px; 
-  }
-
-  mat-form-field{
-    width: 250px; 
-    font-size: 12px;
-    font-family: 'Montserrat';
-    text-align: center;
-    padding-left: 99px;
-  }
-  mat-label{
-    font-size: 15px;
-    font-family: 'Montserrat';
-  }
-
-  .modal-login{
-    width: 500px;
-  }
-
-  .modal-login button{
-    width: 250px; 
-    margin-left: 90px;
+.topo h1 {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
 
-.conta{
-    display: flex; /* Usa flexbox para alinhar os itens */
-    text-align: center;
-    align-items: center;
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+mat-form-field {
+  width: 250px;
+  font-size: 12px;
+  font-family: 'Montserrat';
+  text-align: center;
+  padding-left: 40px;
+}
+
+mat-label {
+  font-size: 15px;
+  font-family: 'Montserrat';
+}
+
+.modal-login {
+  width: 400px;
+}
+
+.modal-login button {
+  width: 250px;
+  margin-left: 35px;
+}
+
+.conta {
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
 .conta p {
-    margin: 0; 
-    font-family: 'Montserrat';
-    font-size: 13px;
-    padding: 4px;
-    padding-left: 110px;
-  
-  }
+  margin: 0;
+  font-family: 'Montserrat';
+  font-size: 13px;
+  padding: 4px;
+  padding-left: 40px;
 
-  .conta a {
-    text-decoration: none; 
-    color: rgb(4, 4, 5); 
-    font-family: 'Montserrat';
-    font-weight: 600;
-    font-size: 13px;
-  }
+}
+
+.conta a {
+  text-decoration: none;
+  color: rgb(4, 4, 5);
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.card-cadastro-login {
+  border-radius: 22px;
+  margin: 45px;
+}
+
+.mat-mdc-card {
+  background-color: rgb(248, 243, 243);
+}

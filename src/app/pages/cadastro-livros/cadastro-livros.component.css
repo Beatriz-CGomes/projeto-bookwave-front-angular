@@ -1,0 +1,44 @@
+.topo{
+    background-color: rgb(200, 0, 0);
+    width: 550px;
+}
+
+.card-cadastro-livros {
+    width: 90%;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+
+.mat-mdc-card{
+ background-color: rgb(255, 255, 255);
+}
+
+.container{
+    display: block;
+}
+
+mat-form-field .sinopse{
+    width: 490px; 
+}
+
+mat-form-field{
+    width: 290px; 
+    height: 70px;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding-left: 15px;
+  }
+  mat-label{
+    font-size: 15px;
+    font-family: 'Montserrat';
+  }
+
+
+
+  
+  .card-cadastro-livros button{
+    width: 220px; 
+    margin-left: 310px;
+}

@@ -18,3 +18,10 @@ h2{
     padding-left: 941.5px;
     padding-top: 22px;
 }
+
+.fundo{
+    background-color: rgb(144, 0, 255);
+    height: 50px;
+    max-width: 100%;
+    width: 100%;
+}

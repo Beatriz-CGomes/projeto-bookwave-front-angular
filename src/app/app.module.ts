@@ -24,6 +24,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { ModalLoginComponent } from './shared/modal-login/modal-login.component';
+import { CadastroLivrosComponent } from './pages/cadastro-livros/cadastro-livros.component';
 
 
 
@@ -40,7 +41,8 @@ import { ModalLoginComponent } from './shared/modal-login/modal-login.component'
     CardLivrosComponent,
     CardDepoimentoComponent,
     ModalCadastroComponent,
-    ModalLoginComponent
+    ModalLoginComponent,
+    CadastroLivrosComponent
   ],
   imports: [
     BrowserModule,
